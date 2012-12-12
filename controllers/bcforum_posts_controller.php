@@ -171,7 +171,7 @@ class BcforumPostsController extends BaserPluginAppController {
 			$this->redirect('index');
 		} else {
 			$this->Session->setFlash('失敗！');
-			$this->redirect(’index’);
+			$this->redirect('index');
 		}
 	}
 
